@@ -135,7 +135,7 @@ def map_filing_date_to_quarter(filing_date):
     return filing_quarter
 
 
-def get_lastest_n_filings(df_13f_metadata, n):
+def get_latest_n_filings(df_13f_metadata, n):
     df_13f_holdings_agg = pd.DataFrame(
         columns= [
             'cik',
